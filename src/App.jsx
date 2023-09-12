@@ -18,7 +18,6 @@ function App() {
 
 	return (
 		<Router>
-			<h1>Sprint2</h1>
 			<Sidebar/>
 
 			<Routes>
