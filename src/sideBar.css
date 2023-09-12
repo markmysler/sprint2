@@ -15,11 +15,6 @@ body {
 	margin-left: var(--width-collapsed);
 }
 
-
-.logo {
-	width: 200px;
-	height: 100px;
-}
 .body-expanded {
 	margin-left: var(--width-collapsed);
 }
@@ -81,7 +76,7 @@ body {
 	padding: var(--padding);
 	margin: 0 auto;
 	border-radius: 100%;
-	width: 45%;
+	width: 50%;
 	margin-bottom: 5%;
 }
 
@@ -91,7 +86,7 @@ body {
 
 #sidemenu #profile #photo,
 #sidemenu #profile #name {
-	font-size: 24px;
+	font-size: 20px;
 	padding: var(--padding) 0;
 	overflow: hidden;
 }
@@ -150,6 +145,7 @@ body {
 	width: 65vw;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 5);
 }
+
 .menu-expanded #header {
 	display: inline-block;
 	width: calc(100% - 50%);
@@ -185,3 +181,32 @@ body {
 .menu-collapsed .item {
 	width: 100px;
 }
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: medium;
+}
+
+.menu-collapsed .item .title span {
+	display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	
+	#sidemenu #profile #photo img {
+		width: 7vw;
+	}
+	#sidemenu #profile #photo {
+		width: 10vw;
+	}
+	.menu-expanded {
+		width: 30vw;
+	}
+}
+
+
+
