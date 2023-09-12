@@ -1,7 +1,9 @@
+import Sidebar from "./Sidebar";
+
 function App() {
 	return (
 		<>
-			<h1>Sprint2</h1>
+			<Sidebar/>
 		</>
 	);
 }
