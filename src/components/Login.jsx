@@ -15,14 +15,14 @@ function Login({ setUser }) {
 	};
 
 	return (
-		<>
-			<h1>Log in</h1>
-			<form onSubmit={(e) => handleLogin(e)}>
+		<div className="loginPage">
+			<h1>Iniciar Sesion</h1>
+			<form onSubmit={(e) => handleLogin(e)} className="loginForm">
 				<input type="email" placeholder="Email" name="email" />
 				<input type="password" placeholder="Password" name="password" />
-				<button>Log In</button>
+				<button>Ingresar</button>
 			</form>
-		</>
+		</div>
 	);
 }
 

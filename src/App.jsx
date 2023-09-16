@@ -10,14 +10,15 @@ import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import { useEffect, useState } from "react";
 import HomeBanking from "./components/HomeBanking";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
 	const [user, setUser] = useState();
 
 	return (
 		<Router>
-			<h1>Sprint2</h1>
-
+			<Header />
 			<Routes>
 				<Route path="/" element={<Inicio />} />
 				<Route path="/login" element={<Login setUser={setUser} />} />
@@ -27,6 +28,7 @@ function App() {
 					element={<HomeBanking user={user} setUser={setUser} />}
 				/>
 			</Routes>
+			<Footer />
 		</Router>
 	);
 }
