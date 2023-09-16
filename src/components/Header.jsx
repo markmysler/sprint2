@@ -3,7 +3,7 @@ function Header() {
 	return (
 		<header>
 			<img
-				src="src/assets/logoBanco.png"
+				src="https://i.ibb.co/mvKjwch/logo-Banco.png"
 				alt="Logo banco"
 				width="140rem"
 			/>
