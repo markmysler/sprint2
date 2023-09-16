@@ -1,0 +1,7 @@
+header {
+	background-color: rgb(19, 18, 18);
+	display: flex;
+	justify-content: flex-end;
+	height: 5vh;
+	padding: 3px;
+}
