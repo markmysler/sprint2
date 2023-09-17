@@ -28,13 +28,14 @@
 .conversionInput {
 	width: 15rem;
 	border-radius: 5px;
-	padding: 3px;
+	padding: 10px;
 }
 .loginForm button,
 .signUpForm button,
 .transferenciasForm button,
 .pagosForm button,
-.prestamoForm button {
+.prestamoForm button,
+.cotizacionesPage button{
 	width: 10rem;
 	height: 2rem;
 	border-radius: 10px;
