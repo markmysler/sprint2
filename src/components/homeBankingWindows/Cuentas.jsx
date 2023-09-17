@@ -1,11 +1,12 @@
 import "./homeBankingWindows.css";
+import logo from "../../assets/logo.png";
 function Cuentas({ user }) {
 	return (
 		<div className="cuentaPage">
 			<h1>Tu Cuenta</h1>
 			{user ? (
 				<div className="cuentaImgDiv">
-					<img className="cuentaImg" src="../src/assets/logo.png" />
+					<img className="cuentaImg" src={logo} />
 				</div>
 			) : (
 				""
