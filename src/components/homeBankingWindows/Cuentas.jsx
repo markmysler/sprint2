@@ -6,7 +6,10 @@ function Cuentas({ user }) {
 			<h1>Tu Cuenta</h1>
 			{user ? (
 				<div className="cuentaImgDiv">
-					<img className="cuentaImg" src={logo} />
+					<img
+						className="cuentaImg"
+						src="https://i.ibb.co/ryWjGJ1/logo.png"
+					/>
 				</div>
 			) : (
 				""
